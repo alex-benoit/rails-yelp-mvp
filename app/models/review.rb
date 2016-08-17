@@ -1,5 +1,7 @@
+# Review Model
 class Review < ApplicationRecord
-  # Associations
+  # associations
   belongs_to :restaurant
-  # Validations
+  # validations
+  validates :content, :rating, presence: true
 end
