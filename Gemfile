@@ -27,6 +27,15 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Bootstrap in front-end
+gem 'bootstrap-sass'
+# Font Awsome icons in front-end
+gem 'font-awesome-sass'
+# Simple Form for front-end forms
+gem 'simple_form'
+# Generates prefixes for all browsers in front-end
+gem 'autoprefixer-rails'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
